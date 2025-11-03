@@ -5,7 +5,11 @@ from fastapi import FastAPI
 #  Import FILES
 #  ...
 
-app = FastAPI(title="Mi Primera API", description="Aprendiendo FastAPI", version="0.1.0")
+app = FastAPI(
+    title="Mi Primera API",
+    description="Aprendiendo FastAPI",
+    version="0.1.0",
+)
 
 
 @app.get(path="/")
